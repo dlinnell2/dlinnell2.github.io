@@ -20,6 +20,7 @@ header {
     background-color:#ccf0d8;
     height: 10%;
     width: 100%;
+    z-index: 1;
 }
 
 #navigation {
@@ -108,7 +109,7 @@ h4 {
     padding: 5%;
 }
 
-#aboutTitle {
+.title{
     width: 85%;
     margin: auto;
     text-align: left;
@@ -136,6 +137,17 @@ section {
     height: 40%;
     float: left;
     margin-left: 7.5%;
+    margin-right: 2%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 5%;
+}
+
+p.two {
+    margin-left: 7.5%;
 }
 
 footer {
@@ -154,4 +166,43 @@ h5 {
     text-align: center;
     font-size: 12px;
     padding-top: 10px;
+}
+
+#contactForm {
+    margin-left:7.5%
+}
+
+.input {
+    width:85%;
+    color:rgb(117, 117, 116)
+}
+
+.submit {
+    width:15%;
+}
+
+textarea {
+    color: rgb(117, 117, 116);
+    width:85%;
+}
+
+.portRow {
+    width: 85%;
+    margin: 1% 7.5%;
+}
+
+.portImage {
+    position: relative;
+    float: left;
+    margin: 0 6%;
+}
+
+.portText {
+    position: absolute;
+    bottom: 10%;
+    background-color: #0e1a6f;
+    color: white;
+    text-align: center;
+    padding: 7.5%;
+    width: 100%;
 }
